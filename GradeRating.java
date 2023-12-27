@@ -1,9 +1,11 @@
-import java.uti.*;
+import java.util.*;
 public class GradeRating {
     
     public static void main(String[] args) {
-        
-        int score = 105 ;
+        Scanner sc= new Scanner(System.in);
+       
+        System.out.println("Please enter your score ? ");
+         double score = sc.nextDouble();
         
         if(score<=100 && score >= 90){
             System.out.println("You got A grade ");
